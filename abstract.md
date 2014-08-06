@@ -1,4 +1,12 @@
-The Materials Knowledge Systems (MKS) is a novel data science approach for solving multiscale materials science problems. It uses techniques from machine learning, regression analysis, signal processing, and spatial statistics to create structure-property-processing relationships. The MKS carries the potential to both bridge multiple length scales (using localization) and provide a framework for solving the inverse material design problem.
+
+
+The Materials Knowledge Systems (MKS) is a novel data science approach
+for solving multiscale materials science problems. It uses techniques
+from machine learning, regression analysis, signal processing, and
+spatial statistics to create structure-property-processing
+relationships. The MKS carries the potential to both bridge multiple
+length scales (using localization) and provide a framework for solving
+the inverse material design problem.
 
 See these references for further reading:
 
@@ -8,8 +16,18 @@ See these references for further reading:
 
 PyMKS
 
-The PyMKS framework is an object oriented set of tools and examples written in Python that provides high level access to the MKS method for rapid analysis of microstructure-property relationships. A description of how to use PyMKS is outlined below and example cases can be found in the examples section. Both code and example contributions are welcome.
-Technical Overview
+The PyMKS framework is an object oriented set of tools and examples
+written in Python that provides high level access to the MKS method
+for rapid analysis of microstructure-property relationships. A
+description of how to use PyMKS is outlined below and example cases
+can be found in the examples section. Both code and example
+contributions are welcome.  Technical Overview
 
-An important component of the MKS is the regression technique for rapid calculation of a response field pi based on a microstructure mi, where the index i refers to a spatial location often in 2D or 3D. For example, the microstructure might represent values of material properties that vary based on phase such as elastic modulus or Poisson’s ratio while the response might be the stress or strain field.
+An important component of the MKS is the regression technique for
+rapid calculation of a response field pi based on a microstructure mi,
+where the index i refers to a spatial location often in 2D or 3D. For
+example, the microstructure might represent values of material
+properties that vary based on phase such as elastic modulus or
+Poisson’s ratio while the response might be the stress or strain
+field.
 
