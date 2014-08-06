@@ -1,2 +1,1 @@
-PyMKS: Multiscaling modeling and structure/property relationships in
-Python
+PyMKS: Multiscaling modeling and structure/property relationships in Python
