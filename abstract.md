@@ -25,6 +25,6 @@ PyMKS uses the standard Python libraries making it work well with the
 existing scientific Python ecosystem. In particular, it relies on
 Scikit-learn for tuning sample sizes and hyperparameters. The
 presentation will provide an introduction to the MKS and an overview
-of the capabilities and implementation details of PyMKS.
+of the capabilities and implementation details of the PyMKS.
 
 
