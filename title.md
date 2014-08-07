@@ -1,1 +1,1 @@
-PyMKS: Multiscaling modeling and structure/property relationships in Python
+PyMKS: A Tool for Modeling Microstructure/Response Relationships in Python

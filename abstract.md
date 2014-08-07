@@ -1,33 +1,30 @@
-TEST
-
-The Materials Knowledge Systems (MKS) is a novel data science approach
-for solving multiscale materials science problems. It uses techniques
-from machine learning, regression analysis, signal processing, and
-spatial statistics to create structure-property-processing
-relationships. The MKS carries the potential to both bridge multiple
-length scales (using localization) and provide a framework for solving
-the inverse material design problem.
-
-See these references for further reading:
-
-    Computationally-Efficient Fully-Coupled Multi-Scale Modeling of Materials Phenomena Using Calibrated Localization Linkages, S. R. Kalidindi; ISRN Materials Science, vol. 2012, Article ID 305692, 2012, doi:10.5402/2012/305692.
-    Formulation and Calibration of Higher-Order Elastic Localization Relationships Using the MKS Approach, Tony Fast and S. R. Kalidindi; Acta Materialia, vol. 59 (11), pp. 4595-4605, 2011, doi:10.1016/j.actamat.2011.04.005
-    Developing higher-order materials knowledge systems, T. N. Fast; Thesis (PhD, Materials engineering)–Drexel University, 2011, doi:1860/4057.
-
-PyMKS
+Microstructure informatics is an emerging field of study that
+encompasses techniques from signal processing, advanced statistics and
+data science. The Materials Knowledge System (MKS) forms an important
+subset of microstructure informatics by providing a localization
+technique to bridge the micro and macroscales. An MKS model is
+calibrated using established numerical models or experimental data at
+the microscale by calculating a set of influence coefficients using
+regression analysis. The influence coefficients are then scaled up to
+provide an approximate model at the macroscale. A Fourier transform is
+used to both calibrate the coefficients and predict the response
+making the MKS highly efficient when compared to standard numerical
+models. The calibrate/predict MKS paradigm enables an existing
+inefficient physics-based code to provide approximate results at much
+longer length scales and relieves developers from focusing on
+efficiency issues when developing new physics-based codes. The main
+limitations of the MKS are associated with the geometry of the spatial
+domain, which is inherently limited by the Fourier transform. However,
+studies of microstructure in materials science often use only
+block-like subdomains ideally suited to the MKS.
 
 The PyMKS framework is an object oriented set of tools and examples
 written in Python that provides high level access to the MKS method
-for rapid analysis of microstructure-property relationships. A
-description of how to use PyMKS is outlined below and example cases
-can be found in the examples section. Both code and example
-contributions are welcome.  Technical Overview
+enabling rapid analysis of microstructure/response relationships. The
+PyMKS uses the standard Python libraries making it work well with the
+existing scientific Python ecosystem. In particular, it relies on
+Scikit-learn for tuning sample sizes and hyperparameters. The
+presentation will provide an introduction to the MKS and an overview
+of the capabilities and implementation details of PyMKS.
 
-An important component of the MKS is the regression technique for
-rapid calculation of a response field pi based on a microstructure mi,
-where the index i refers to a spatial location often in 2D or 3D. For
-example, the microstructure might represent values of material
-properties that vary based on phase such as elastic modulus or
-Poisson’s ratio while the response might be the stress or strain
-field.
 
