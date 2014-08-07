@@ -17,7 +17,7 @@ efficiency issues when developing new physics-based codes. The main
 limitations of the MKS are associated with the geometry of the spatial
 domain, which is inherently limited by the Fourier transform. However,
 studies of microstructure in materials science often use only
-block-like subdomains ideally suited to the [PyMKS].
+block-like subdomains ideally suited to the MKS.
 
 The [PyMKS]
 framework is an object oriented set of tools and examples
@@ -27,6 +27,6 @@ enabling rapid analysis of microstructure/response relationships. The
 existing scientific Python ecosystem. In particular, it relies on
 Scikit-learn for tuning sample sizes and hyperparameters. The
 presentation will provide an introduction to the MKS and an overview
-of the capabilities and implementation details of MKS.
+of the capabilities and implementation details of [PyMKS].
 
 [PyMKS]: http://openmaterials.github.io/pymks/
