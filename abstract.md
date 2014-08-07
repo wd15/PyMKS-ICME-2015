@@ -27,6 +27,6 @@ enabling rapid analysis of microstructure/response relationships. The
 existing scientific Python ecosystem. In particular, it relies on
 Scikit-learn for tuning sample sizes and hyperparameters. The
 presentation will provide an introduction to the MKS and an overview
-of the capabilities and implementation details of [PyMKS].
+of the capabilities and implementation details of MKS.
 
 [PyMKS]: http://openmaterials.github.io/pymks/
