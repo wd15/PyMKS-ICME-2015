@@ -1,6 +1,7 @@
 Microstructure informatics is an emerging field of study that
 encompasses techniques from signal processing, advanced statistics and
-data science. The Materials Knowledge System (MKS) forms an important
+data science. The Materials Knowledge System (MKS) \cite{Kalidindi_2012, Fast_2011}
+forms an important
 subset of microstructure informatics by providing a localization
 technique to bridge the micro and macroscales. An MKS model is
 calibrated using established numerical models or experimental data at
@@ -18,7 +19,8 @@ domain, which is inherently limited by the Fourier transform. However,
 studies of microstructure in materials science often use only
 block-like subdomains ideally suited to the PyMKS.
 
-The PyMKS framework is an object oriented set of tools and examples
+The [PyMKS](http://openmaterials.github.io/pymks/)
+framework is an object oriented set of tools and examples
 written in Python that provides high level access to the MKS method
 enabling rapid analysis of microstructure/response relationships. The
 PyMKS uses the standard Python libraries making it work well with the
