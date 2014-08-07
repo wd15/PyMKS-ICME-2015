@@ -23,7 +23,7 @@ The [PyMKS]
 framework is an object oriented set of tools and examples
 written in Python that provides high level access to the MKS method
 enabling rapid analysis of microstructure/response relationships. The
-PyMKS uses the standard Python libraries making it work well with the
+[PyMKS] uses the standard Python libraries making it work well with the
 existing scientific Python ecosystem. In particular, it relies on
 Scikit-learn for tuning sample sizes and hyperparameters. The
 presentation will provide an introduction to the MKS and an overview
