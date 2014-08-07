@@ -16,7 +16,7 @@ efficiency issues when developing new physics-based codes. The main
 limitations of the MKS are associated with the geometry of the spatial
 domain, which is inherently limited by the Fourier transform. However,
 studies of microstructure in materials science often use only
-block-like subdomains ideally suited to the MKS.
+block-like subdomains ideally suited to the PyMKS.
 
 The PyMKS framework is an object oriented set of tools and examples
 written in Python that provides high level access to the MKS method
